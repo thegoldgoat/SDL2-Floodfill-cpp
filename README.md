@@ -15,3 +15,14 @@ You may want to change the surface by using cambiaSup(SDL_Surface *supe), where:
 - supe stands for the new surface
 
 The class will do anything needed.
+# Example
+There is included an example main.cpp file, which simply creates a window and fills a triangle.
+To compile, at least on Linux, you can simply type:
+```
+make release
+make run
+```
+Or to compile and immediatly run:
+```
+make all
+```
