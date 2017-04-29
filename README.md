@@ -17,7 +17,7 @@ You may want to change the surface by using cambiaSup(SDL_Surface *supe), where:
 The class will do anything needed.
 # Example
 There is included an example main.cpp file, which simply creates a window and fills a triangle.
-To compile, at least on Linux, you can simply type:
+To compile, at least using GNU Make and GNU GCC (G++), you can simply type:
 ```
 make release
 make run
